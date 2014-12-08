@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'products/open'
+
+  get 'products/show'
+
+  get 'products/edit'
+
+  get 'products/new'
+
+  get 'products/index'
+
+  get 'products/close'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
